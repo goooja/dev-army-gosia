@@ -1,0 +1,55 @@
+.figure {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    display: inline-block;
+}
+
+.circle {
+    padding: 10px;
+    border-radius: 100px;
+}
+
+
+.figure:nth-of-type(even) {
+    border-color: rgb(214, 124, 50);
+    border-style: dotted;
+}
+
+.circle:first-child {
+    background-color: blue;
+    display: block;
+}
+
+.figure:nth-of-type(odd) {
+    border-style: solid;
+}
+
+.circle:nth-of-type(4) {
+    background-color: green
+}
+
+.figure:nth-of-type(3) {
+    background-color: rgb(88, 52, 23)
+}
+
+
+.figure:last-of-type {
+    background-color: brown
+}
+
+p:nth-of-type(odd) {
+    margin-left: 50px;
+}
+
+p:nth-of-type(3) {
+    background-color: black;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+p:last-of-type {
+    background-color: red
+}
