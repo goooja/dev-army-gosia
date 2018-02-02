@@ -12,7 +12,7 @@
 
 
 .figure:nth-of-type(even) {
-    border-color: rgb(214, 124, 50);
+    border-color: rgb(3, 3, 2);
     border-style: dotted;
 }
 
